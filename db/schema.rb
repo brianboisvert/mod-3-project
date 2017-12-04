@@ -10,12 +10,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171202162333) do
+ActiveRecord::Schema.define(version: 20171204150402) do
 
   create_table "cast_members", force: :cascade do |t|
     t.string "name"
-    t.string "hometown"
     t.integer "age"
+    t.string "hometown"
     t.integer "show_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -25,9 +25,8 @@ ActiveRecord::Schema.define(version: 20171202162333) do
   create_table "shows", force: :cascade do |t|
     t.string "title"
     t.string "host"
-    t.string "judges"
     t.string "channel"
-    t.text "description"
+    t.string "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
