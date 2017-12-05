@@ -5,9 +5,16 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* mvp:
+ * view all characters from a show_id
+ * save predictions - of season winner - A
+ * symbolize elimination - A
 
-* System dependencies
+
+* add ons:
+ * drop down to pick shows
+ * if your guess matches - "you win!"
+
 
 * Configuration
 
