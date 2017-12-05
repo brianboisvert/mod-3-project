@@ -14,8 +14,8 @@ ActiveRecord::Schema.define(version: 20171205005448) do
 
   create_table "cast_members", force: :cascade do |t|
     t.string "name"
-    t.string "hometown"
     t.integer "age"
+    t.string "hometown"
     t.integer "show_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
