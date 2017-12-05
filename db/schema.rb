@@ -32,7 +32,6 @@ ActiveRecord::Schema.define(version: 20171205005448) do
   create_table "shows", force: :cascade do |t|
     t.string "title"
     t.string "host"
-    t.string "judges"
     t.string "channel"
     t.text "description"
     t.datetime "created_at", null: false
