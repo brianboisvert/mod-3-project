@@ -26,7 +26,7 @@ ActiveRecord::Schema.define(version: 20171204150402) do
     t.string "title"
     t.string "host"
     t.string "channel"
-    t.string "description"
+    t.text "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
